@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="登录">
+        <classes>
+            <class name="TestNG.TestNG_1"/>
+            <class name="TestNG.SuiteTest.Login"/>
+        </classes>
+    </test>
+    <test name="登出">
+        <classes>
+            <class name="TestNG.TestNG_1"/>
+            <class name="TestNG.SuiteTest.Logout"/>
+        </classes>
+    </test>
+</suite>

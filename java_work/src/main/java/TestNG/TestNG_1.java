@@ -43,7 +43,7 @@ public class TestNG_1 {
 
     @BeforeSuite
     void 第六() {
-        System.out.println("第 6 BeforeSuite 在Test框架最开始运行");
+        System.out.println("/n第 6 BeforeSuite 在Test框架最开始运行");
     }
 
     @AfterSuite
