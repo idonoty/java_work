@@ -9,11 +9,18 @@ public class Depend_Test {
     public void depend1(){
         System.out.println("这是被依赖的方法");
         //若被依赖的方法执行失败，则依赖的方法会被忽略执行
-        throw new RuntimeException();
+        //throw new RuntimeException();
     }
 
     @Test(dependsOnMethods = {"depend1"})
     public void depend2(){
         System.out.println("这是声明了依赖的方法");
+        //throw new RuntimeException();
     }
+
+    @Test(dependsOnMethods = {"depend2"})
+    public void depend3(){
+        System.out.println("这是依赖了两次的方法");
+    }
+
 }

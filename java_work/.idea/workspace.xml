@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="437b2d65-ccdf-4a95-8ce1-458f223e8c47" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Chaapter5/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,61 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ignore_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Ignore_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Group_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/Group_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupsClass_Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GroupsClass.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/GroupsClass.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -74,8 +25,8 @@
       <file leaf-file-name="Exception_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Exception_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="400">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
@@ -84,29 +35,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Depend_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Depend_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Depend_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chaapter5/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" selection-start-line="13" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Extend_Demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/java/Extend_Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#272#273#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsClass_Test2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test2.java">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Moco操作说明" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Moco/Moco操作说明">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startup1.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Moco/startup1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7480">
+              <caret line="441" selection-start-line="441" selection-end-line="441" />
             </state>
           </provider>
         </entry>
@@ -116,24 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Testng_Thread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Testng_Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,6 +138,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/GroupsClass.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TestNG/Exception_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestNG/Depend_Test.java" />
+        <option value="$PROJECT_DIR$/Chaapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/Chaapter5/src/main/java/Extend_Demo.java" />
+        <option value="$PROJECT_DIR$/Chaapter5/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/Moco/Moco操作说明" />
+        <option value="$PROJECT_DIR$/Moco/startup1.json" />
       </list>
     </option>
   </component>
@@ -176,9 +154,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1561" />
-    <option name="y" value="-171" />
-    <option name="width" value="1380" />
+    <option name="x" value="1606" />
+    <option name="y" value="-174" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -186,9 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,44 +174,27 @@
             <path>
               <item name="one" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Moco" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java_work\java_work\Moco" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Depend_Test.depend2">
+  <component name="RunManager" selected="TestNG.C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -270,16 +228,45 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C:/java_work/java_work/src/main/resources/GroupsClass.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="one" />
+    <configuration name="C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExtentReports" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/GroupsClass.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chaapter5/src/main/resources/testng.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Depend_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.Depend_Test" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -322,7 +309,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Exception_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Depend_Test.depend3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="one" />
       <extension name="coverage">
         <pattern>
@@ -334,37 +321,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.Exception_Test" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Exception_Test.FalseException" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.Exception_Test" />
-      <option name="METHOD_NAME" value="FalseException" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.Depend_Test" />
+      <option name="METHOD_NAME" value="depend3" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -432,19 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/java_work/java_work/src/main/resources/GroupsClass.xml" />
-      <item itemvalue="TestNG.Exception_Test" />
-      <item itemvalue="TestNG.Exception_Test.FalseException" />
       <item itemvalue="TestNG.Exception_Test.SuccessException" />
       <item itemvalue="TestNG.Depend_Test.depend2" />
+      <item itemvalue="TestNG.Depend_Test.depend3" />
+      <item itemvalue="TestNG.Depend_Test" />
+      <item itemvalue="TestNG.C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.Depend_Test" />
+        <item itemvalue="TestNG.Depend_Test.depend3" />
         <item itemvalue="TestNG.Depend_Test.depend2" />
         <item itemvalue="TestNG.Exception_Test.SuccessException" />
-        <item itemvalue="TestNG.Exception_Test" />
-        <item itemvalue="TestNG.Exception_Test.FalseException" />
-        <item itemvalue="TestNG.C:/java_work/java_work/src/main/resources/GroupsClass.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -462,27 +420,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exception_Test - 2020.01.06 at 16h 01m 14s.xml">
-      <configuration name="Exception_Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test_SuccessException - 2020.01.06 at 16h 01m 40s.xml">
-      <configuration name="Exception_Test.SuccessException" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test_SuccessException - 2020.01.06 at 16h 01m 51s.xml">
-      <configuration name="Exception_Test.SuccessException" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test - 2020.01.06 at 16h 03m 09s.xml">
-      <configuration name="Exception_Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test - 2020.01.06 at 16h 03m 43s.xml">
-      <configuration name="Exception_Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test_SuccessException - 2020.01.06 at 16h 07m 35s.xml">
-      <configuration name="Exception_Test.SuccessException" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Exception_Test_SuccessException - 2020.01.06 at 16h 07m 37s.xml">
-      <configuration name="Exception_Test.SuccessException" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Exception_Test_SuccessException - 2020.01.06 at 16h 07m 53s.xml">
       <configuration name="Exception_Test.SuccessException" configurationId="TestNG" />
     </history-entry>
@@ -492,25 +429,44 @@
     <history-entry file="Depend_Test_depend2 - 2020.01.06 at 17h 30m 21s.xml">
       <configuration name="Depend_Test.depend2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Depend_Test_depend3 - 2020.01.06 at 18h 15m 29s.xml">
+      <configuration name="Depend_Test.depend3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Depend_Test - 2020.01.17 at 10h 29m 57s.xml">
+      <configuration name="Depend_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Depend_Test - 2020.01.17 at 10h 30m 12s.xml">
+      <configuration name="Depend_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Depend_Test - 2020.01.17 at 10h 30m 27s.xml">
+      <configuration name="Depend_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Depend_Test - 2020.01.17 at 10h 30m 45s.xml">
+      <configuration name="Depend_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_java_work_Chaapter5_src_main_resources_testng_xml - 2020.01.17 at 13h 52m 33s.xml">
+      <configuration name="C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_java_work_Chaapter5_src_main_resources_testng_xml - 2020.01.17 at 13h 53m 39s.xml">
+      <configuration name="C:/java_work/java_work/Chaapter5/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-415" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.50541127" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50541127" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.478355" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -523,12 +479,154 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Exception_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Depend_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/java/Extend_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8820">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNG_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Ignore_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/Group_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GroupsClass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Exception_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNG_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Testng_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Depend_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HttpClient/Http_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -650,13 +748,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Ignore.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNG_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Ignore_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -666,51 +757,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/Group_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="140">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/GroupsTest/GroupsClass_Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -721,17 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/GroupsClass.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Exception_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="400">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
@@ -739,22 +797,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNG_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/Depend_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="420">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7480">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/java/Extend_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#272#273#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GroupsClass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moco/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chaapter5/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moco/Moco操作说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moco/startup1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Moco</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
