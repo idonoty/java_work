@@ -1,2 +1,13 @@
 使用命令启动你的访问地址
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8088 -c startup1.json
+
+json文件中的英文含义“
+description：描述（这个接口的标题）
+request：请求
+uri：接口
+method：请求方式
+queries：Get请求参数
+forms:Post请求参数
+response：返回信息
+text：返回文本
+Content-Type:编码格式

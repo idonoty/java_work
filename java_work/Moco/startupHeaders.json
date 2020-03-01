@@ -1,0 +1,22 @@
+[
+  {
+    "description":"携带头部信息的接口",
+    "request":{
+      "uri":"/post/headers",
+      "method":"post",
+      "headers":{
+        "Content-Type":"application/json"
+      },
+      "json": {
+        "name": "yyc",
+        "word": "ittest"
+      }
+    },
+    "response":{
+      "json":{
+        "code":200,
+        "success":"访问成功"
+      }
+    }
+  }
+]

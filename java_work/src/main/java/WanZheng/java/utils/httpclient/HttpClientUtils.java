@@ -69,7 +69,7 @@ public class HttpClientUtils {
                 get.setConfig(requestConfig);                                      //这一步是和上面代理为true对应
             }
             long startTime = System.currentTimeMillis();   //获取开始时间
-            CloseableHttpResponse closeableHttpResponse = httpclient.execute(get); //将HTTP执行的get请求赋值给一个封装的类
+            CloseableHttpResponse closeableHttpResponse = httpclient.execute(get); //将HTTP执行的get请求返回结果传给一个对象
             if (closeableHttpResponse.getStatusLine().getStatusCode() == 200) {    //该类下的方法获取到接口返回的code是否为200
                 allTime =System.currentTimeMillis()-startTime;                     //当前时间减开始时间即为接口响应时间
                 httpEntity = closeableHttpResponse.getEntity();                    //为200的话获取到接口返回参数
