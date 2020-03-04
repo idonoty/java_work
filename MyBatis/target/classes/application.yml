@@ -1,0 +1,22 @@
+sever:
+  port: 8882
+
+logging:
+  path: logs
+  file: mylog.log
+
+Spring:
+  application:
+    name: myTest
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.150:3306/test          # 数据库服务器地址端口号和库名
+    username: pdd
+    password: pdd123
+
+mybatis:
+  type-aliases-package: pers.yyct.model       #这里写bean包目录
+  mapper-locations:
+    - mapper/*
+
+
