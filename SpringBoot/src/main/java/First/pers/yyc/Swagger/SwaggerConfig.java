@@ -1,5 +1,6 @@
 package First.pers.yyc.Swagger;
 
+import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -22,6 +23,9 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .pathMapping("/")
                 .select()
+                //不显示错误路径的接口
+                .paths(Predicates.not(PathSelectors.regex("/error.*")))
+                // 对根下所有路径进行监控
                 .paths(PathSelectors.regex("/.*"))
                 .build();
     }

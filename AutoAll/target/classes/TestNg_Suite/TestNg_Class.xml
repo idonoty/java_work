@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="GroupsRun">
+    <test name = "GroupsRunAll">
+        <classes>
+            <class name="com.fx.piaodingding.cases.AddUser"/>
+            <class name="com.fx.piaodingding.cases.LoginTest"/>
+        </classes>
+    </test>
+
+
+
+    <test name = "GroupsRunTest1">
+        <groups>
+            <run>
+                <include name="class1"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.fx.piaodingding.cases.AddUser"/>
+            <class name="com.fx.piaodingding.cases.LoginTest"/>
+        </classes>
+    </test>
+</suite>

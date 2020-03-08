@@ -72,21 +72,18 @@ public class HttpClientUtils {
             CloseableHttpResponse closeableHttpResponse = httpclient.execute(get); //将HTTP执行的get请求返回结果传给一个对象
             if (closeableHttpResponse.getStatusLine().getStatusCode() == 200) {    //该类下的方法获取到接口返回的code是否为200
                 allTime =System.currentTimeMillis()-startTime;                     //当前时间减开始时间即为接口响应时间
-                httpEntity = closeableHttpResponse.getEntity();                    //为200的话获取到接口返回参数
-                result = EntityUtils.toString(httpEntity, "utf-8");   //将参数以String格式，编码格式为UTF-8赋值给变量
             } else {
                 //result = "接口返回错误";                                            //若code不是200就输出错误
-                httpEntity = closeableHttpResponse.getEntity();
-                result = EntityUtils.toString(httpEntity, "utf-8");
                 System.out.println("接口返回错误");
             }
-
+            httpEntity = closeableHttpResponse.getEntity();                    //为200的话获取到接口返回参数
+            result = EntityUtils.toString(httpEntity, "utf-8");   //将参数以String格式，编码格式为UTF-8赋值给变量
         } catch (IOException e) {                                                   //解决异常
             e.printStackTrace();
         } finally {
             try {
-                EntityUtils.consume(httpEntity);
-                httpclient.close();
+                EntityUtils.consume(httpEntity);                              //销毁参数
+                httpclient.close();                                           //关闭请求池
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -138,13 +135,11 @@ public class HttpClientUtils {
             CloseableHttpResponse closeableHttpResponse = httpclient.execute(post);
             if (closeableHttpResponse.getStatusLine().getStatusCode() == 200) {
                 allTime =System.currentTimeMillis()-startTime;                     //当前时间减开始时间即为接口响应时间
-                httpEntity = closeableHttpResponse.getEntity();
-                result = EntityUtils.toString(httpEntity, "utf-8");
             } else {
-                httpEntity = closeableHttpResponse.getEntity();
-                result = EntityUtils.toString(httpEntity, "utf-8");
                 System.out.println("接口返回错误");
             }
+            httpEntity = closeableHttpResponse.getEntity();
+            result = EntityUtils.toString(httpEntity, "utf-8");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -168,16 +163,6 @@ public class HttpClientUtils {
         try {
             if (params != null) {
                 post.setEntity(new StringEntity(params, "utf-8"));
-                // 参数处理，核心是 UrlEncodedFormEntity 需要List<NameValuePair>
-//				List<NameValuePair> list = new ArrayList<NameValuePair>();
-//				String[] params_array = params.split("&");
-//				for (String param : params_array) {
-//					String[] param_array = param.split("=");
-//					list.add(new BasicNameValuePair(param_array[0], param_array[1]));
-//				}
-//				if (list.size() > 0) {
-//					post.setEntity(new UrlEncodedFormEntity(list, "utf-8"));
-//				}
             }
             // 处理header
             if (headers != null) {
@@ -197,17 +182,12 @@ public class HttpClientUtils {
             CloseableHttpResponse closeableHttpResponse = httpclient.execute(post);
             if (closeableHttpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
                 allTime =System.currentTimeMillis()-startTime;
-                httpEntity = closeableHttpResponse.getEntity();
-                result = EntityUtils.toString(httpEntity, "utf-8");
             } else {
-                httpEntity = closeableHttpResponse.getEntity();
-                result = EntityUtils.toString(httpEntity, "utf-8");
                 System.out.println("接口返回错误");
 //                System.out.println(closeableHttpResponse.getStatusLine().getStatusCode());
-//                httpEntity = closeableHttpResponse.getEntity();
-//                result = EntityUtils.toString(httpEntity, "utf-8");
             }
-
+            httpEntity = closeableHttpResponse.getEntity();
+            result = EntityUtils.toString(httpEntity, "utf-8");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

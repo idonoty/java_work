@@ -33,7 +33,7 @@ public class MyPostMethod {
         return "用户名或密码错误";
     }
 
-    @RequestMapping(value = "/getUserList",method = RequestMethod.POST)
+    @RequestMapping(value = "/post/getUserList",method = RequestMethod.POST)
     @ApiOperation(value="获取用户信息",httpMethod = "POST")
     //当你使用的是数组格式时，必须添加请求头：Content-Type = application/json 将数组转换成json
     public String postGetUserList(HttpServletRequest request,

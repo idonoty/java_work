@@ -29,7 +29,7 @@ public class MyGetMethod {
     @ApiOperation(value = "拿到cookies的方法",httpMethod = "GET")
     @RequestMapping(value = "/getCookies",method = RequestMethod.GET)
     public String getCookies(HttpServletResponse response){
-        Cookie cookie = new Cookie("login","123");
+        Cookie cookie = new Cookie("login","get");
         response.addCookie(cookie);
         return "cookie获取成功"+cookie.getName()+": "+cookie.getValue();
     }
@@ -43,7 +43,7 @@ public class MyGetMethod {
             return "你必须携带cookie才能访问";
         }
         for(Cookie cookie : cookies){
-            if (cookie.getName().equals("login") && cookie.getValue().equals("123")){
+            if (cookie.getName().equals("login") && cookie.getValue().equals("get")){
                 return "cookie正确，访问成功";
             }else {
                 return "访问失败，cookie错误";

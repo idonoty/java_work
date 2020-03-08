@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AutoAll" />
         <module name="JiChuXueXi" />
-        <module name="MyBatis" />
+        <module name="Mybatis" />
+        <module name="pddServer" />
         <module name="SpringBoot" />
         <module name="TestNg_ReportOut" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyBatis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

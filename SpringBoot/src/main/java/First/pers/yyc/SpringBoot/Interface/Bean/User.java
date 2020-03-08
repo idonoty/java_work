@@ -3,12 +3,12 @@ package First.pers.yyc.SpringBoot.Interface.Bean;
 public class User {
     @Override
     public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", sex='" + sex + '\'' +
+        return "{" +
+                "username:'" + username + '\'' +
+                ", password:'" + password + '\'' +
+                ", name:'" + name + '\'' +
+                ", age:" + age +
+                ", sex:'" + sex + '\'' +
                 '}';
     }
 

@@ -3,8 +3,25 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 
-<mapper namespace="pers.yyc">
+<mapper namespace="yyc">
     <select id="GetUserList"  resultType="Integer">
-        select count(*) from user where username = 13899998880
+        select count(*) from user where username = 13899998880;
     </select>
+
+    <select id="getMaxId"  resultType="Integer">
+        select id from user order by id desc limit 1;
+    </select>
+
+    <insert id="addUser" parameterType="yyc.model.User">
+        insert into user values(#{id},#{username},#{nickname},#{mobile});
+    </insert>
+
+    <update id="updateUser" parameterType="yyc.model.User">
+        update user set username = #{username} , nickname = #{nickname} where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="yyc.model.User">
+        delete from user where id = #{id};
+    </delete>
+
 </mapper>

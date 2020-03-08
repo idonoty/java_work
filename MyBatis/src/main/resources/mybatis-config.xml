@@ -4,7 +4,7 @@
 
 <configuration>
     <typeAliases>
-        <package name="pers.yyc.model"/>
+        <package name="yyc.model"/>
     </typeAliases>
     <mappers>
         <mapper resource="mapper/mybatis.xml"/>

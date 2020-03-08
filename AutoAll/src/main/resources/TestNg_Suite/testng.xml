@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name ="测试套件">
+    <test name="测试模块">
+        <classes>
+            <class name ="com.fx.piaodingding.cases.TestDemo">
+                <methods>
+                    <include name ="get1"/>
+                    <include name ="get2"/>
+                    <include name ="post1"/>
+                    <include name ="post2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.fx.piaodingding.utils.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>

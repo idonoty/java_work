@@ -2,552 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00a6224-6c5a-4883-b328-a39666351810" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/GetUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/UpdateUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/model/InterfaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/model/User_link_wechat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/DatabaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/ExtentTestNgFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/SQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/TestNg_Class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoAll/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis/src/main/java/yyc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis/src/main/java/yyc/Swagger/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis/src/main/java/yyc/controller/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis/src/main/java/yyc/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/PddApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/Swagger/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/userModell/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/userModell/User_link_wechat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/resources/mapper/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pddServer/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java_work.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_crab2died_Excel4J_3_0_0_Alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_aviator_aviator_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_20030203_000129.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/Chaapter5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/ExtentReports.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/src/main/java/Extend_Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/src/main/resources/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/target/classes/Extend_Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/target/classes/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Chaapter5/test-output/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/Moco操作说明" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/moco-runner-0.11.0-standalone.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startup1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startupCookie.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startupGet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startupHeaders.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startupPost.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Moco/startupRedirect.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/Springboot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/SApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/pers/yyc/SpringBoot/Interface/Bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyGetMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyPostMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/pers/yyc/SpringBoot/Interface/Bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/pers/yyc/SpringBoot/Interface/MyGetMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/pers/yyc/SpringBoot/Interface/MyPostMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/First/pers/yyc/Swagger/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/Springboot/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/java_work.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/one.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/AddDataToDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/C3P0_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/C3P0_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/C4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/DbUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/DbUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/DbUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/c5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/C3P0/update_pddPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/EXCASE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/EXCEL_XR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/ExcelCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/PDD_addJianKong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/POST_PDD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/Testng_Thread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/Thread_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/Thread_EXCEL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/DuoXianCheng/Thread_pdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FanXing/FanXing_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/DiGui.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/FangFa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/GetSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/Gouzaofangfa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/Helloword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/ShuJuLeiXing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/FangFaCaoZuo/YiChang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/JiChu/Get_cookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/JiChu/HttpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/JiChu/HttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/JiChu/Http_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/JiChu/The_HttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/TestNgAndHttpClient/HttpClient_Get.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/TestNgAndHttpClient/HttpClient_Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/ApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/CheckPointUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/ExcelUtils4JTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/Get_cookies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/GuanLianSqlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/HttpClientUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/QuYinHao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/StudentExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/TestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/HttpClient/xuexi/jsonpath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/IOliu/FileReader_demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/IOliu/FileWriter_demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/CarShiXian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/JC2_car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/JC_car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/JieKou1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/ChouXiangLei/WorkMan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/DongWuYuan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/DuoTai/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiCheng/JiCheng.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/Equals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/HelloWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/If_else.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/JiChuCaoZuo/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiChuCaoZuo/SwitchCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/Collection_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/FangFa/Collections_FF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/FangFa/ComparatorByLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/List_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/Map_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/JiHeKuangJia/Set_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/FZ_delete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/FZ_select.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/LianJie_Mysql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/Mysql_insert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/Mysql_table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/Mysql_update.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/select_lieming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/Mysql/连接Mysql进行查询教程.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/ObjectLei/StringLei.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/Depend_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/Exception_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/GroupsTest/Group_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/GroupsTest/GroupsClass_Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/GroupsTest/GroupsClass_Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/Ignore_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/InterFace_PDD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/SuiteTest/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/SuiteTest/Logout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/TestNG_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/TestNG_HttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/TestNG/Testng_Thread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/collection/ArraylistTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/collection/HashmapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/collection/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/apitest.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/result2019-05-22_16_52_28.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/result2019-05-22_17_19_49.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/result2019-05-22_17_25_22.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/result2019-05-22_17_26_14.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/data/result2019-05-22_17_29_42.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/FangFa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/GetSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/Helloword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/JiCheng.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/MaoPao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/Testshuzu01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/ss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day01/test/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day02/testmaopao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day03/Test01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/day03/Test02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/json/JsonPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/json/RegexMatches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/leetcode/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/leetcode/TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/test/CheckPointUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/test/Log4JTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/test/XmlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/thread/MyThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/correlation/CorrelationUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/correlation/MapUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/email/EmailUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/email/PropertiesUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/excel4j/ExcelUtils4JTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/excel4j/StudentExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/ApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/HttpClientUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/ParameterBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/TestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/TestCaseResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/check/CheckPointUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/httpclient/check/JsonCheckResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/AddDataToDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/DbCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/DbUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/DbUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/DbUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/WanZheng/java/utils/jdbc/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/XunHuan/MaoPao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/java/XunHuan/XunHuan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/resources/GroupsClass.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/resources/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/resources/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/src/main/resources/suite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/AddDataToDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/C3P0_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/C3P0_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/C4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/DbUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/DbUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/DbUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/c5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/C3P0/update_pddPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/EXCASE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/EXCEL_XR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/ExcelCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/PDD_addJianKong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/POST_PDD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Testng_Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_EXCEL$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_EXCEL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_pdd$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/DuoXianCheng/Thread_pdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FanXing/FanXing_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/DiGui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/FangFa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/GetSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/GouZhao2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/GouZhaoFangFA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/Gouzaofangfa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/Helloword$helloword1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/Helloword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/ShuJuLeiXing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/YiChang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/YongFa3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/FangFaCaoZuo/throwsYC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/GroupsClass.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/JiChu/Get_cookie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/JiChu/HttpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/JiChu/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/JiChu/Http_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/JiChu/The_HttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/TestNgAndHttpClient/HttpClient_Get.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/TestNgAndHttpClient/HttpClient_Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/ApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/CheckPointUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/ExcelUtils4JTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/Get_cookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/GuanLianSqlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/HttpClientUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/QuYinHao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/StudentExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/TestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/HttpClient/xuexi/jsonpath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/IOliu/FileReader_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/IOliu/FileWriter_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/IOliu/IOException_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/CarShiXian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/DiaoYong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/FuLei.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/JC2_car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/JC_car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/JieKou1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/JieKou2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/ShiXian1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/USB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/Upan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/ChouXiangLei/WorkMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DOG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DongWuYuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DuoTai/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DuoTai/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DuoTai/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/DuoTai/DuoTai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/JiCheng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiCheng/jc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiChuCaoZuo/Equals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiChuCaoZuo/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiChuCaoZuo/If_else.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiChuCaoZuo/SwitchCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/ArrayList_DuiXiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/ArrayList_ShuJu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/ComparetorByLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/FangFa/ComparatorByLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/FangFa/paixu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/HashMap_CiShuJiSuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/HashMap_DuiXiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/HashSet_DuiXiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/HashSet_ListQuChong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/HashSet_ShuJu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/Hashmap_ShuJu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/LinkedHashSet_DuiXiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/LinkedList_DuiLie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/LinkedList_DuiZhan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/Map_YuanSu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/TreeMap_DuiXiangPaiXu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/TreeSet_DuiXiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/JiHeKuangJia/TreeSet_PaiXu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/FZ_delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/FZ_select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/LianJie_Mysql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/Lianjie_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/Mysql_insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/Mysql_table$user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/Mysql_table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/Mysql_update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/select_lieming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/Mysql/连接Mysql进行查询教程.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/ObjectLei/StringLei.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/Depend_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/Exception_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/GroupsTest/Group_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/GroupsTest/GroupsClass_Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/GroupsTest/GroupsClass_Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/Ignore_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/InterFace_PDD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/SuiteTest/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/SuiteTest/Logout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/TestNG_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/TestNG_HttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/TestNG/Testng_Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/collection/ArraylistTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/collection/HashmapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/collection/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/apitest.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/result2019-05-22_16_52_28.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/result2019-05-22_17_19_49.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/result2019-05-22_17_25_22.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/result2019-05-22_17_26_14.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/data/result2019-05-22_17_29_42.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/FangFa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/GetSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/Helloword$helloword1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/Helloword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/JiCheng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/MaoPao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/Testshuzu01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/aa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/bb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/ss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day01/test/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day02/testmaopao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day03/Test01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/day03/Test02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/json/JsonPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/json/RegexMatches.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/leetcode/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/leetcode/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/test/CheckPointUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/test/Log4JTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/test/XmlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/thread/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/correlation/CorrelationUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/correlation/MapUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/email/EmailUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/email/PropertiesUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/excel4j/ExcelUtils4JTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/excel4j/StudentExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/ApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/HttpClientUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/ParameterBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/TestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/TestCaseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/check/CheckPointUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/httpclient/check/JsonCheckResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/AddDataToDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/DbCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/DbUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/DbUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/DbUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/WanZheng/java/utils/jdbc/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/XunHuan/MaoPao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/XunHuan/XunHuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/classes/suite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_work/target/spring.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JiChuXueXi/src/main/java/WanZheng/java/utils/httpclient/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JiChuXueXi/src/main/java/WanZheng/java/utils/httpclient/HttpClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/controller/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/mapper/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/src/main/resources/mapper/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/target/classes/mapper/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/target/classes/mapper/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/target/classes/pers/yyc/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis/target/classes/pers/yyc/controller/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/Bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/Bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyGetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyGetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyPostMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyPostMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/classes/First/pers/yyc/Swagger/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/classes/First/pers/yyc/Swagger/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNg_ReportOut/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNg_ReportOut/test-output/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -555,6 +73,8 @@
     <ignored path="$PROJECT_DIR$/JiChuXueXi/target/" />
     <ignored path="$PROJECT_DIR$/TestNg_ReportOut/target/" />
     <ignored path="$PROJECT_DIR$/MyBatis/target/" />
+    <ignored path="$PROJECT_DIR$/AutoAll/target/" />
+    <ignored path="$PROJECT_DIR$/pddServer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -562,8 +82,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Alljava$TestNG_1.ic" NAME="TestNG_1 Coverage Results" MODIFIED="1583329223218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestNG.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpClientUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-716">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/TestDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/suite.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/TestNG/SuiteTest/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Extend_Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/java/Extend_Demo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -573,86 +156,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emailable-report.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/test-output/emailable-report.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Moco操作说明" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Moco/Moco操作说明">
+      <file leaf-file-name="startupCookie.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Moco/startupCookie.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
+            <state relative-caret-position="-600" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatis/pom.xml">
+      <file leaf-file-name="HttpClient_Post.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/TestNgAndHttpClient/HttpClient_Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="88">
+              <caret line="62" selection-start-line="61" selection-end-line="62" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatis/src/main/resources/mapper/mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/controller/Demo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mysql</find>
+      <find>parent</find>
+      <find>slf4j</find>
+      <find>log4</find>
+      <find>logback</find>
+      <find>starter-web</find>
+      <find>log</find>
+      <find>spring-core</find>
+      <find>httpclient</find>
+      <find>org.apache.httpcomponent</find>
+      <find>json</find>
+      <find>test</find>
+      <find>Connected to the target VM</find>
+      <find>util</find>
+      <find>testng</find>
+      <find>XML</find>
+      <find>ernmae</find>
+      <find>ikename</find>
+      <find>response</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>username</replace>
+      <replace>ername</replace>
+      <replace>ickname</replace>
+      <replace>Response</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -660,11 +217,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/TestNg_ReportOut/pom.xml" />
-        <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/controller/Demo.java" />
+        <option value="$PROJECT_DIR$/JiChuXueXi/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/JiChuXueXi/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/yyc/model/User.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/mybatis.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/databaseConfig.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/model/User.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/model/User_link_wechat.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/model/InterfaceName.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/utils/ConfigFile.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/utils/DatabaseUtil.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/cases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/JiChuXueXi/src/main/resources/suite.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Class.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/suite.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/utils/ExtentTestNgFormatter.java" />
+        <option value="$PROJECT_DIR$/AutoAll/pom.xml" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/pdd/cases/AddUser.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/UserController.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/com/fx/piaodingding/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/com/fx/piaodingding/controller/User_link_wechat.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/com/fx/piaodingding/user/UserController.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/pddServer/pom.xml" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/controller/User_link_wechat.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/userMedul/User.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/userModell/User.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/Swagger/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/yyc/Swagger/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/PddApplication.java" />
+        <option value="$PROJECT_DIR$/Mybatis/src/main/java/yyc/controller/Demo.java" />
+        <option value="$PROJECT_DIR$/pddServer/src/main/java/piaodingding/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/JiChuXueXi/src/main/java/WanZheng/java/utils/httpclient/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/Test.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyPostMethod.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyGetMethod.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/Bean/User.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/TestDemo.java" />
+        <option value="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/testng.xml" />
       </list>
     </option>
   </component>
@@ -682,16 +285,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -703,47 +310,60 @@
             <path>
               <item name="Alljava" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoAll" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alljava" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alljava" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoAll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alljava" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_work" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoAll" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alljava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_work" type="462c0819:PsiDirectoryNode" />
+              <item name="JiChuXueXi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ic &#9;PSI&#9;JAVA://com.sun.org.apache.bcel.internal.generic.I2C" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java_work\AutoAll\src\main\resources\TestNg_Suite" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yyc.Swagger" />
+      <recent name="piaodingding.Swagger" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\java_work\MyBatis\src\main\java\pers\yyc" />
-      <recent name="C:\java_work\MyBatis\src\main\resources" />
-      <recent name="C:\java_work\Moco" />
-      <recent name="C:\java_work\TestNg_ReportOut\src\main\resources" />
-      <recent name="C:\java_work\TestNg_ReportOut\src\main\java" />
+      <recent name="C:\java_work\AutoAll\src\main\resources" />
+      <recent name="C:\java_work\pddServer\src\main\resources" />
+      <recent name="C:\java_work\pddServer\src\main\java" />
+      <recent name="C:\java_work\Mybatis\src\main\java\com\fx\piaodingding\controller" />
+      <recent name="C:\java_work\AutoAll\src\main\resources\TestNg_Suite" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -758,25 +378,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HttpClient.xuexi.ApiTest" />
-      <module name="JiChuXueXi" />
+  <component name="RunManager" selected="TestNG.C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml">
+    <configuration name="SApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="First.SApplication" />
+      <module name="SpringBoot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HttpClient.xuexi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.yyc.Application" />
-      <module name="MyBatis" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.yyc.*" />
+          <option name="PATTERN" value="First.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -800,11 +409,21 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C:/java_work/JiChuXueXi/src/main/resources/suite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JiChuXueXi" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Mybatis" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/JiChuXueXi/src/main/resources/suite.xml" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoAll" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/testng.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -823,30 +442,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="C:/java_work/TestNg_ReportOut/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_ReportOut" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNg_ReportOut/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="HttpClient_Get.test_baidu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpClient_Post.post_setcookies" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JiChuXueXi" />
       <extension name="coverage">
         <pattern>
@@ -858,8 +454,66 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="HttpClient.TestNgAndHttpClient" />
-      <option name="MAIN_CLASS_NAME" value="HttpClient.TestNgAndHttpClient.HttpClient_Get" />
-      <option name="METHOD_NAME" value="test_baidu" />
+      <option name="MAIN_CLASS_NAME" value="HttpClient.TestNgAndHttpClient.HttpClient_Post" />
+      <option name="METHOD_NAME" value="post_setcookies" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestDemo.post2 (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fx.piaodingding.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fx.piaodingding.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.fx.piaodingding.cases.TestDemo" />
+      <option name="METHOD_NAME" value="post2" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestDemo.post2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoAll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fx.piaodingding.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.fx.piaodingding.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.fx.piaodingding.cases.TestDemo" />
+      <option name="METHOD_NAME" value="post2" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -898,19 +552,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ApiTest" />
-      <item itemvalue="TestNG.HttpClient_Get.test_baidu" />
-      <item itemvalue="TestNG.C:/java_work/JiChuXueXi/src/main/resources/suite.xml" />
-      <item itemvalue="TestNG.C:/java_work/TestNg_ReportOut/src/main/resources/testng.xml" />
-      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.SApplication" />
+      <item itemvalue="TestNG.TestDemo.post2" />
+      <item itemvalue="TestNG.HttpClient_Post.post_setcookies" />
+      <item itemvalue="TestNG.TestDemo.post2 (1)" />
+      <item itemvalue="TestNG.C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="TestNG.C:/java_work/TestNg_ReportOut/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.C:/java_work/JiChuXueXi/src/main/resources/suite.xml" />
-        <item itemvalue="TestNG.HttpClient_Get.test_baidu" />
-        <item itemvalue="Application.ApiTest" />
+        <item itemvalue="TestNG.C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" />
+        <item itemvalue="TestNG.TestDemo.post2" />
+        <item itemvalue="Application.SApplication" />
+        <item itemvalue="TestNG.TestDemo.post2 (1)" />
+        <item itemvalue="TestNG.HttpClient_Post.post_setcookies" />
       </list>
     </recent_temporary>
   </component>
@@ -928,122 +582,426 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpClient_Get_test_baidu - 2020.03.04 at 19h 49m 17s.xml">
-      <configuration name="HttpClient_Get.test_baidu" configurationId="TestNG" />
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 45m 46s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__java_work_JiChuXueXi_src_main_resources_suite_xml - 2020.03.04 at 19h 50m 11s.xml">
-      <configuration name="C:/java_work/JiChuXueXi/src/main/resources/suite.xml" configurationId="TestNG" />
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 46m 22s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__java_work_TestNg_ReportOut_src_main_resources_testng_xml - 2020.03.04 at 19h 53m 17s.xml">
-      <configuration name="C:/java_work/TestNg_ReportOut/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 46m 59s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 47m 41s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 48m 14s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestDemo_post2 - 2020.03.08 at 18h 48m 55s.xml">
+      <configuration name="TestDemo.post2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_AutoAll_src_main_resources_TestNg_Suite_testng_xml - 2020.03.08 at 18h 53m 26s.xml">
+      <configuration name="C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_AutoAll_src_main_resources_TestNg_Suite_testng_xml - 2020.03.08 at 18h 53m 57s.xml">
+      <configuration name="C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_AutoAll_src_main_resources_TestNg_Suite_testng_xml - 2020.03.08 at 18h 56m 42s.xml">
+      <configuration name="C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__java_work_AutoAll_src_main_resources_TestNg_Suite_testng_xml - 2020.03.08 at 19h 02m 53s.xml">
+      <configuration name="C:/java_work/AutoAll/src/main/resources/TestNg_Suite/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2749591" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.61374795" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.6743044" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.7037643" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.7561375" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.8396072" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.5335516" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JiChuXueXi/src/main/java/TestNG/TestNG_1.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis/src/main/java/yyc/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pddServer/src/main/java/piaodingding/Swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis/src/main/java/yyc/Swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/Swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis/src/main/java/yyc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pddServer/src/main/java/piaodingding/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis/src/main/java/yyc/controller/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/JiChu/The_HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pddServer/src/main/java/piaodingding/PddApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/impl/client/BasicCookieStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/NameValuePair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/HeaderElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/Header.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/impl/client/HttpClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/message/HeaderGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/message/AbstractHttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/HttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/client/methods/AbstractExecutionAwareRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/client/methods/HttpPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/client/methods/HttpRequestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7-sources.jar!/org/apache/http/client/methods/HttpGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/MethodRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/WanZheng/java/utils/httpclient/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="30" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/AddUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyGetMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="45" column="81" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/SApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/resources/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/JiChu/Http_1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/JiCheng/DuoTai/Animal.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/JiHeKuangJia/FangFa/Collections_FF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/JiChuCaoZuo/Equals.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/DuoXianCheng/EXCASE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/xuexi/ApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#2932#2933#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/TestNgAndHttpClient/HttpClient_Get.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="-232">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/resources/suite.xml">
+    <entry file="file://$PROJECT_DIR$/Moco/Moco操作说明">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/Bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/First/pers/yyc/SpringBoot/Interface/MyPostMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
+        <state relative-caret-position="40">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/suite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moco/startupCookie.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/HttpClient/TestNgAndHttpClient/HttpClient_Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="62" selection-start-line="61" selection-end-line="62" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/java/Extend_Demo.java">
@@ -1053,53 +1011,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/test-output/emailable-report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Moco/Moco操作说明">
+    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/resources/suite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="100">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
+    <entry file="file://$PROJECT_DIR$/TestNg_ReportOut/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/JiChuXueXi/src/main/java/TestNG/SuiteTest/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/resources/TestNg_Suite/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="32">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatis/src/main/resources/mapper/mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/cases/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/controller/Demo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatis/src/main/java/pers/yyc/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="304">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
-            <element signature="e#566#567#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoAll/src/main/java/com/fx/piaodingding/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1121,7 +1078,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1156,7 +1113,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyBatis</last-edited>
+          <last-edited>Mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1181,7 +1138,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: avalon-framework:avalon-framework:4.1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
